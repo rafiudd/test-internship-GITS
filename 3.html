@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var a = [['B', 3], ['A',1], ['C',2]];
+    var b = [ ['A',1], ['C',2], ['B', 3],];
+
+    a.sort();
+    s = '';
+    d = '';
+    for (var i = 0; i < a.length; i++) {
+        s += a[i][0] + ',' + a[i][1] + ' ';
+    }
+
+    for (var i = 0; i < a.length; i++) {
+        d += b[i][0] + ',' + b[i][1] + ' ';
+    }
+
+
+    document.write(s+'<br>');
+    document.write(d+'<br>');
+    </script>
+  </body>
+</html>
